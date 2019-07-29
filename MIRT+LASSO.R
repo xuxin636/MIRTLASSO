@@ -114,5 +114,5 @@ tt
 
 ind[1:(K+1),] <- A_0;
 
-write.csv(RESULT, file =paste0('dim_k',cond,'.csv'))
+write.csv(ind, file =paste0('dim_k',cond,'.csv'))
 
